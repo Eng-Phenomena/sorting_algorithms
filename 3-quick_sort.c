@@ -1,7 +1,7 @@
 #include "sort.h"
 
 void swap_int(int *a, int *b);
-void divide(int beg, int pivot, int *i, size_t size);
+void divide(int st, int pi, int *i, size_t size);
 int partition(int beg, int pivot, int *i, size_t size);
 
 /**
